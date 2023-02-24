@@ -8,7 +8,7 @@ const HomePage = () => {
       <Typography variant="h3" color={theme.palette.info.main}>
         MUI Next Js Project Team Job
       </Typography>
-      <Grid container rowSpacing={1} columnSpacing={3}>
+      <Grid container rowSpacing={1} columnSpacing={6}>
         <Grid item md={4}>
           <Box
             sx={{
@@ -16,7 +16,7 @@ const HomePage = () => {
               textAlign: "center",
             }}
           >
-            <Typography variant="h5" color="secondary">
+            <Typography variant="overline" color="secondary">
               Column One
             </Typography>
           </Box>
@@ -28,7 +28,7 @@ const HomePage = () => {
               textAlign: "center",
             }}
           >
-            <Typography variant="h5" color="secondary">
+            <Typography variant="overline" color="secondary">
               Column Two
             </Typography>
           </Box>
@@ -40,7 +40,7 @@ const HomePage = () => {
               textAlign: "center",
             }}
           >
-            <Typography variant="h5" color="secondary">
+            <Typography variant="overline" color="secondary">
               Column Three
             </Typography>
           </Box>
@@ -52,7 +52,7 @@ const HomePage = () => {
               textAlign: "center",
             }}
           >
-            <Typography variant="h5" color="secondary">
+            <Typography variant="overline" color="secondary">
               Column Four
             </Typography>
           </Box>
@@ -64,7 +64,7 @@ const HomePage = () => {
               textAlign: "center",
             }}
           >
-            <Typography variant="h5" color="secondary">
+            <Typography variant="overline" color="secondary">
               Column Five
             </Typography>
           </Box>
@@ -76,7 +76,7 @@ const HomePage = () => {
               textAlign: "center",
             }}
           >
-            <Typography variant="h5" color="secondary">
+            <Typography variant="overline" color="secondary">
               Column Six
             </Typography>
           </Box>
